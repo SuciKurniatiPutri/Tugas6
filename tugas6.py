@@ -8,7 +8,7 @@ model = joblib.load("tugas6.joblib")
 
 # Load mapped data
 mapped_data = pd.read_csv("Transformed Data Set - Sheet1.csv")
-st.title("Halo")
+st.title("Gender Prediction App")
 # Membuat label encoder
 label_encoders = {}
 for column in mapped_data.columns:
